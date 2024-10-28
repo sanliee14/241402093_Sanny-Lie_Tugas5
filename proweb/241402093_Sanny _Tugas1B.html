@@ -1,0 +1,83 @@
+<!-- HTML Form -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulir HTML</title>
+    </head>
+    <body>
+        <h3><mark>Hey There, i need your help!!</mark></h3> 
+        Tolong bantu aku agar formulirku berjarak dan tidak sempit-sempitan seperti ini
+        <br> 
+        Tapi tolong gunakan HTML saja yaa, karena aku belum mengerti CSS >-<
+        <br>
+        Dan juga, bolehkan kamu menolongku satu hal lagi  
+        <br>
+        Seharusnya formulir ku ketika disubmit dia mengarah ke link yang sudah ada,
+        <br>
+        tetapi sepertinya aku membuat kesalahan, bolehkah kamu memperbaiki script ku?
+        <br>Terima kasih
+            
+        </p>
+        <h1>Formulir Data Mahasiswa</h1>
+        <form action="https://kelas.usu.ac.id/" method="get">
+            <table>
+                <tr height="40">
+                    <td width="110"><label for="nama">Nama</label></td>
+                    <td width="20">:</td>
+                    <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required></td>
+                </tr>
+                <tr height="40">
+                    <td><label for="pw">Password</label></td>
+                    <td>:</td>
+                    <td><input type="password" id="pw" name="password" placeholder="Masukkan kata sandi" required></td>
+                </tr>
+                <tr height="40">
+                    <td><label for="email">Email</label></td>
+                    <td>:</td>
+                    <td><input type="email" id="email" name="email" placeholder="Masukkan email Anda" required></td>
+                </tr>
+                <tr height="40">
+                    <td><label for="hobby">Hobby</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" id="hobby1" name="hobby1" value="reading">
+                        <label for="hobby1">Reading</label>
+                        <input type="checkbox" id="hobby2" name="hobby2" value="writing">
+                        <label for="hobby2">writing</label>
+                        <input type="checkbox" id="hobby3" name="hobby3" value="gaming">
+                        <label for="hobby3">gaming</label>
+                    </td>
+                </tr>
+                <tr height="40">
+                    <td><label for="sex">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" id="sex1" name="sex" value="male">
+                        <label for="sex1">Laki-laki</label>
+                        <input type="radio" id="sex2" name="sex" value="female">
+                        <label for="sex2">Perempuan</label>
+                    </td>
+                </tr>
+
+                <tr height="40">
+                    <td><label for="major">Jurusan</label></td>
+                    <td>:</td>
+                    <td>
+                        <select name="major" id="major">
+                            <option value="">--Pilih jurusan Anda--</option>
+                            <option value="it">Teknologi Informasi</option>
+                            <option value="cs">Ilmu Komputer</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr height="40">
+                    <td colspan="3" style="text-align: center;">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

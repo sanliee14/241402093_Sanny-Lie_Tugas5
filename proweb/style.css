@@ -1,0 +1,32 @@
+/*flex paling awal yg berada di ujung kanan*/
+.container1{
+    display: flex;
+    justify-content: flex-end;
+    color:antiquewhite;
+    padding: 20px;
+    margin: 20px;
+}
+/*flex kedua yg berada di tengah*/
+.container2{
+    display: flex;
+    justify-content: center;
+    color:antiquewhite;
+    padding: 40px;
+    margin: 20px;
+}
+/*flex ketiga yang berjarak satu sama lain*/
+.container3{
+    display: flex;
+    color:antiquewhite;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 20px;
+}
+/*mengatur warna, ukuran dan jarak*/
+.item{
+    background-color: black;
+    color:antiquewhite;
+    text-align: center ;
+    padding: 25px;
+    font-size: 20px
+}
